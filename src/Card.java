@@ -78,7 +78,10 @@ public class Card {
 		othercard.getsuit
 		othercard.getrank
 		othercard.getPointValue
-		if othercard.
+		if (suit.equals(otherCard.suit) && rank.equals(otherCard.rank) && pointValue == otherCard.pointValue){
+			return true;
+		}
+		return false;
 	}
 
 	/**
